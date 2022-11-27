@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    // background-color: black;
+
+
+    .G-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .G-center {
+        margin: 0px auto;
+        width: 100wh;
+
+    }
+
+    .G-flex-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .G-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .G-relative {
+        position: relative;
+    }
+
+    .G-absolute {
+        position: absolute;
+    }
+
+    .P-absolute-box {
+        width: 16px;
+        height: 16px;
+        color: black;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: -7px;
+        right: -4px;
+        font-size: 12px;
+        border: -4px solid yellow;
+        border-radius: 90%;
+        background: yellow;
+      
+    }
+    .P-text {
+        width: 51vw;
+        z-index: 22;
+        top: 11vw;
+        left: 7vw;
+    }
+    .P-text_2 {
+        width: 51vw;
+        z-index: 22;
+        top: 11vw;
+        left: 7vw;
+    }
+    .P-ginger_1{
+        z-index: 21;
+        right: 22vw;
+        width: 27vw;
+        top: 19vw;
+    }
+    .P-nootris_1{
+        z-index: 23;
+        right: 25vw;
+        width: 14vw;
+        top: 5vw;
+
+    }
+    
+    .P-Lemon{
+        z-index: 24;
+        width: 30vw;
+        bottom: -7vw;
+        right: 23vw;
+        z-index: 25;
+    }
+
+    .P-header {
+        background-color: black;
+        color: white;
+    }
+
+    li {
+        cursor: pointer;
+        margin: 11px;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .P-button{
+        border-radius: 7px;
+        font-size: 20px;
+        color: black;
+        background-color: #FCB500 ;
+        height: 56px;
+        // border: ;
+    }
+
+    // ul li {
+    //     // text-transform: uppercase;
+    //     text-overflow: ellipsis;
+    //     padding: 11px;
+    //     cursor: pointer;
+    //     /* width: 33px; */
+    //     // height: 16px;
+    //     margin-top: 23px;
+    //     margin-left: 82px;
+
+    //     font-family: 'Roboto';
+    //     font-style: normal;
+    //     font-weight: 500;
+    //     font-size: 16px;
+    //     line-height: 16px;
+    // }
+}
